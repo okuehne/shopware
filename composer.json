@@ -2,7 +2,7 @@
     "name": "okuehne/shopware",
     "type": "library",
     "license": "MIT",
-    "version": "0.0.2",
+    "version": "0.0.3",
     "autoload": {
         "psr-4": {
             "Okuehne\\Shopware\\": "src/"
