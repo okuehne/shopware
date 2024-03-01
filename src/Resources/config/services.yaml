@@ -1,0 +1,5 @@
+services:
+  okuehne_console_command.subscriber:
+    class: Okuehne\Shopware\EventSubscriber\CommandSubscriber
+    tags:
+      - { name: kernel.event_subscriber }
