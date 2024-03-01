@@ -4,7 +4,7 @@ namespace Okuehne\Shopware\Repository;
 
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;
-use Okuehne\Shopware\Store;
+use Okuehne\Shopware\Entity\Store;
 
 /**
  * @extends ServiceEntityRepository<Store>

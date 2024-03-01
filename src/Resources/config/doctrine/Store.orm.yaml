@@ -22,3 +22,6 @@ Okuehne\Shopware\Entity\Store:
     clientHost:
       type: string
       length: 255
+    est:
+      type: string
+      length: 255
