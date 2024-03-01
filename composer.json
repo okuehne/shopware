@@ -2,7 +2,7 @@
     "name": "okuehne/shopware",
     "type": "library",
     "license": "MIT",
-    "version": "0.0.0",
+    "version": "0.0.1",
     "autoload": {
         "psr-4": {
             "Okuehne\\Shopware\\": "src/"
@@ -10,7 +10,7 @@
     },
     "authors": [
         {
-            "name": "Oliver Kühne",
+            "name": "Oliver K\u00fchne",
             "email": "mail@okuehne.de"
         }
     ],
