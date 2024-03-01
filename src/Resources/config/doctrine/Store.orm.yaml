@@ -1,0 +1,24 @@
+Okuehne\Shopware\Entity\Store:
+  type: entity
+  table: store
+  id:
+    id:
+      type: integer
+      generator:
+        strategy: AUTO
+  fields:
+    name:
+      type: string
+      length: 255
+    label:
+      type: string
+      length: 255
+    clientId:
+      type: string
+      length: 255
+    clientSecret:
+      type: string
+      length: 255
+    clientHost:
+      type: string
+      length: 255

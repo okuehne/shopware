@@ -1,6 +1,6 @@
 <?php
 
-namespace Okuehne\Shopware;
+namespace Okuehne\Shopware\Repository;
 
 use Doctrine\Bundle\DoctrineBundle\Repository\ServiceEntityRepository;
 use Doctrine\Persistence\ManagerRegistry;

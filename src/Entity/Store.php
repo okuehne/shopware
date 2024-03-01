@@ -1,9 +1,9 @@
 <?php
 
-namespace Okuehne\Shopware;
+namespace Okuehne\Shopware\Entity;
 
 use Doctrine\ORM\Mapping as ORM;
-use Okuehne\Shopware\StoreRepository;
+use Okuehne\Shopware\Repository\StoreRepository;
 
 #[ORM\Entity(repositoryClass: StoreRepository::class)]
 class Store
