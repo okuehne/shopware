@@ -28,6 +28,9 @@ class Store
     #[ORM\Column(length: 255)]
     private ?string $clientHost;
 
+    #[ORM\Column(length: 255)]
+    private ?string $test;
+
     public function getId(): ?int
     {
         return $this->id;
