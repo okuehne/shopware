@@ -1,0 +1,22 @@
+{
+    "name": "okuehne/shopware",
+    "type": "library",
+    "license": "MIT",
+    "version": "0.0.0",
+    "autoload": {
+        "psr-4": {
+            "Okuehne\\Shopware\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Oliver Kühne",
+            "email": "mail@okuehne.de"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "vin-sw/shopware-sdk": "^1.7",
+        "php": "^8.2"
+    }
+}
