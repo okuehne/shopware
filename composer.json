@@ -2,7 +2,7 @@
     "name": "okuehne/shopware",
     "type": "symfony-bundle",
     "license": "MIT",
-    "version": "0.0.5",
+    "version": "0.0.6",
     "autoload": {
         "psr-4": {
             "Okuehne\\Shopware\\": "src/"
