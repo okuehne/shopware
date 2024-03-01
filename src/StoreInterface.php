@@ -4,9 +4,9 @@ namespace Okuehne\Shopware;
 
 interface StoreInterface
 {
-    public function getClientHost(): string;
+    public function getClientHost(): ?string;
 
-    public function getClientId(): string;
+    public function getClientId(): ?string;
 
-    public function getClientSecret(): string;
+    public function getClientSecret(): ?string;
 }

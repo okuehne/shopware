@@ -1,6 +1,6 @@
 {
     "name": "okuehne/shopware",
-    "type": "library",
+    "type": "symfony-bundle",
     "license": "MIT",
     "version": "0.0.5",
     "autoload": {

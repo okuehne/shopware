@@ -4,9 +4,15 @@ namespace Okuehne\Shopware;
 
 class Context
 {
+    private StoreInterface $store;
+
     public function __construct(
-        private readonly StoreInterface $store
     )
     {
+    }
+
+    public function setStore(StoreInterface $store): void
+    {
+        $this->store = $store;
     }
 }
