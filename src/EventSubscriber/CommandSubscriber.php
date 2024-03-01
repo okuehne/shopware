@@ -17,6 +17,5 @@ class CommandSubscriber implements EventSubscriberInterface
 
     public function onConsoleCommand(): void
     {
-        dd('event');
     }
 }
